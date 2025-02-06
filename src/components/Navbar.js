@@ -8,6 +8,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 const Navbar1 = () => {
   return (
     <div>
+
        {['md'].map((expand) => (
           <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
               <Container fluid>
